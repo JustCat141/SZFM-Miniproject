@@ -1,7 +1,7 @@
-Találd ki mi van a képen! - követelményspecifikáció
+Place Detective - követelményspecifikáció
 
 1. Jelenlegi helyzet: 
-A "Találd ki mi van a képen!" játék a már jól megszokott stratégiát követi. Megjelenik egy kép egy nevezetes épületről és négy válaszlehetőség. A felhasználó ki kell válassza azt a várost melyben az adott nevezetesség megtalálható. A válaszok közül egy helyes, többi helytelen. A játék célja a lehető legtöbb pont megszerzése. 
+A "Place Detective" játék a már jól megszokott stratégiát követi. Megjelenik egy kép egy nevezetes épületről és négy válaszlehetőség. A felhasználó ki kell válassza azt a várost és országot melyben az adott nevezetesség megtalálható. A válaszok közül egy helyes, többi helytelen. A játék célja a lehető legtöbb pont megszerzése és számunkra fontos a diákok edukálása, ezért minden válaszadás után az adott nevezetességről érdekességeket olvashatnak.
 
 2. Vágyálom rendszer: 
 Szükség van egy webes felületre ahol a legyen lehetőség a fent említett játékra. A webes terület tartalmazzon egy kép megjelenítésére alkamas mezőt, illetve négy gombot, amellyel a felhasználó választ adhat. Válaszadás után indikálja a felhasználóval a válasz helyességét. Mindemellet még elengedhetetlen egy kisebb adatbázis, mely az adott képeket tárolja, illetve városneveket.
