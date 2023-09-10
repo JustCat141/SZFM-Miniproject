@@ -28,3 +28,12 @@ A képek egységes méretarányúak legyenek.
 6. Követelménylista:
 
 7. Fogalomszótár:
+
+Fejlesztői igényspecifikáció:
+-Fejlesztői vízió (Vágyálom): Olyan megrendelés érkezése, amit a jelenlegi kapacitás határidőn belül megfelelően teljesíteni tud.
+-Fejlesztői cél:
+A saját tudását felhasználva a megrendelő igényeinek maximális kielégítése, további projektekben is a bizalom elnyerése a megrendelő részéről.
+-Fejlesztői követelmény:
+1. Hardveres, szoftveres, illetve emberi erőforrásokkal lefejleszhető legyen a termék.
+2. Gördülékeny kommunikáció.
+3. Megfelelően becsülhető fejlesztési idő, homályos, kérdéses részek nélkül.
