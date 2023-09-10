@@ -1,10 +1,12 @@
 Place Detective - követelményspecifikáció
 
 1. Jelenlegi helyzet: 
-A "Place Detective" játék a már jól megszokott stratégiát követi. Megjelenik egy kép egy nevezetes épületről és négy válaszlehetőség. A felhasználó ki kell válassza azt a várost és országot melyben az adott nevezetesség megtalálható. A válaszok közül egy helyes, többi helytelen. A játék célja a lehető legtöbb pont megszerzése és számunkra fontos a diákok edukálása, ezért minden válaszadás után az adott nevezetességről érdekességeket olvashatnak.
+A "Place Detective" játék a már jól megszokott stratégiát követi. Megjelenik egy kép egy nevezetes épületről és négy válaszlehetőség. A felhasználó ki kell válassza azt a várost és országot melyben az adott nevezetesség megtalálható. A válaszok közül egy helyes, többi helytelen. A játék célja a lehető legtöbb pont megszerzése és számunkra fontos a diákok edukálása, ezért minden válaszadás után az adott nevezetességről érdekességeket olvashatnak. Megfelelve a mai kor követelményeinek, az oldal okostelefonon is megfelelően kell működjön.
+
+Megrendelői igényspecifikáció
 
 2. Vágyálom rendszer: 
-Szükség van egy webes felületre ahol a legyen lehetőség a fent említett játékra. A webes terület tartalmazzon egy kép megjelenítésére alkamas mezőt, illetve négy gombot, amellyel a felhasználó választ adhat. Válaszadás után indikálja a felhasználóval a válasz helyességét. Mindemellet még elengedhetetlen egy kisebb adatbázis, mely az adott képeket tárolja, illetve városneveket.
+Szükség van egy webes felületre ahol a legyen lehetőség a fent említett játékra. A webes terület tartalmazzon egy kép megjelenítésére alkamas mezőt, illetve négy gombot, amellyel a felhasználó választ adhat. Válaszadás után indikálja a felhasználóval a válasz helyességét. Mindemellett még elengedhetetlen egy json fájl, mely az adott képeket tárolja, illetve az adatokat.
 Fontos, hogy a webes platform minden felhasználó számára a megfelelő élményt legyen képes nyújtani, ennek érdekében az oldal reszponzív kell legyen.
 
 3. Jelenlegi folyamatok: 
