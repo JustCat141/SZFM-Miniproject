@@ -24,6 +24,20 @@ A projekt elkészítése két hetet vesz igénybe. Ennek része a fejlesztés é
 
 # Követelmények
 
+## Funkcionális követelmények:
+- Helyek nevének tárolása egyedi azonosítóval.
+- Kérdések, helyes és helytelen válaszok tárolása.
+- Képek megjelenítése a könnyebb kitalálás érdekében.
+- Webes eszközön működés.
+- Felhasználóbarát felület.
+
+## Nem funkcionális követelmények:
+A felhasználók csak a saját feladatukkal tudnak foglalkozni, más játékosok eredményeinek a megtekintésére nincs lehetőség.
+
+## Törvényi előírások, szabványok:
+A képek jogtiszta megszerzése, letöltése és felhasználása a játékban.
+
+
 # Funkcionális terv
 
 # Fizikai környezet
@@ -75,3 +89,8 @@ Minden data.json fájl a következőképpen épül fel:
     - **answers**: A kérdéshez tartozó válaszokat tárolja
 
 # Implementációs terv
+Webes felületre tervezünk:
+A Webes felület főként HTML, CSS, illetve Javascript nyelven fog készülni. Ehhez segítégünkre lesz a REACT JS is, amellyel ezek egyszerre alkalmazhatók.
+Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és
+úgy fogjuk egymáshoz csatolni a jobb átláthatóság,
+és könnyebb bővítés érdekében. Ilyen szempontból ha kesőbbi javításban vagy fejlesztésben gondolkodnánk, így egyszerűbb lesz. Képes lesz felhasználni a Backend részen futó JSON fájlt amit a városok adatait tartalmazza, illetve a kérdéseket és válaszokat is.

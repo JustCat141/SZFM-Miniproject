@@ -43,13 +43,41 @@ Fontos, hogy a webes platform minden felhasználó számára a megfelelő élmé
 
 - 5.7 A képek és a válaszok sorrendjüket tekintve véletlenszerűen jelenjenek meg.
 =======
-7. Fogalomszótár:
+<h2>6. Fogalomszótár:</h2>
+html - A HTML (angolul: HyperText Markup Language, „hiperszöveges jelölőnyelv”) egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki
+css - A CSS (Cascading Style Sheets, magyarul: „lépcsőzetes stíluslapok”) a számítástechnikában egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le.
+javascript - A JavaScript programozási nyelv egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.
 
-Fejlesztői igényspecifikáció:
--Fejlesztői vízió (Vágyálom): Olyan megrendelés érkezése, amit a jelenlegi kapacitás határidőn belül megfelelően teljesíteni tud.
--Fejlesztői cél:
+<h2>7. Fejlesztői igényspecifikáció:</h2>
+<h3>-Fejlesztői vízió (Vágyálom):</h3> 
+Olyan megrendelés érkezése, amit a jelenlegi kapacitás határidőn belül megfelelően teljesíteni tud. A fejlesztők képesek megtervezni és lefejleszteni hiánytalanul a kérést, emellett modern módszereket és eljárásokat tudnak alkalmazni. A megrendelővel a folyamatos kapcsolattartás a fejlesztést segíti és nem hátráltatja. Fontos a biztos alapok lefektetése!
+
+<h3>-Fejlesztői cél:</h3>
 A saját tudását felhasználva a megrendelő igényeinek maximális kielégítése, további projektekben is a bizalom elnyerése a megrendelő részéről.
--Fejlesztői követelmény:
-1. Hardveres, szoftveres, illetve emberi erőforrásokkal lefejleszhető legyen a termék.
-2. Gördülékeny kommunikáció.
-3. Megfelelően becsülhető fejlesztési idő, homályos, kérdéses részek nélkül.
+Egy olyan termék elkészítése, amely mindkét oldalról pozitív véleményt vált ki.
+Fejlesztő portfóliójának a bővítéséül szolgál.
+A fejlesztési görbe normális ütemtervben halad, nem stagnál, a felmerülő problémák, akadályok hamar orvosolhatók.
+A játék egyértelműen játszható legyen, érthető módón, fontos, hogy a fejlesztő értse mit csinál, így sokkal könnyebb a közös munka.
+
+
+<h3>-Fejlesztői követelmény:</h3>
+
+- 7.1 Hardveres, szoftveres, illetve emberi erőforrásokkal lefejleszhető legyen a termék.
+
+- 7.2 Gördülékeny kommunikáció a megrendelővel.
+
+- 7.3 Megfelelően becsülhető fejlesztési idő.
+
+- 7.4 Homályos, kérdéses részek nélküli terv készítése.
+
+- 7.5 Esetleges extra kérések időben való tudósítása.
+
+- 7.6 Pontos terv kidolgozása.
+
+- 7.7 Normális tempóban haladás, nincs sürgetés.
+
+- 7.8 A játékban használt képek megfelelő minőségű, jogtiszta birtoklása.
+
+- 7.9 Egy felület, elképzelés ami szerint haladi lehet.
+
+- 7.10 Folyamatos tesztelésre emberi biztosítása.
