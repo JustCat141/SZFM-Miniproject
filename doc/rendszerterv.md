@@ -21,6 +21,7 @@ A projekt elkészítése két hetet vesz igénybe. Ennek része a fejlesztés é
     - Patrik
 
 # Üzleti folyamatok modellje
+![Ábra az üzleti modellről](./img/diagram.png)
 
 # Követelmények
 
