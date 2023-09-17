@@ -17,7 +17,6 @@ Fontos, hogy a webes platform minden felhasználó számára a megfelelő élmé
 
 - 3.3 Leadott válasz kiértékelése
 
-<<<<<<< HEAD
 - 3.4 Pontok összesítése
 
 - 3.5 A játék végeztével a pontok százalékos formátumban jelenjenek meg
@@ -54,4 +53,3 @@ A saját tudását felhasználva a megrendelő igényeinek maximális kielégít
 1. Hardveres, szoftveres, illetve emberi erőforrásokkal lefejleszhető legyen a termék.
 2. Gördülékeny kommunikáció.
 3. Megfelelően becsülhető fejlesztési idő, homályos, kérdéses részek nélkül.
->>>>>>> e6cfd7abf5607bc62d9725da44f3e7092d38dc99
