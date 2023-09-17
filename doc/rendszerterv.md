@@ -58,6 +58,7 @@ Az alkalmazás web platformra készül, böngészőből érhető el. A projekthe
 # Absztrakt domain modell
 
 # Architekturális terv
+![Architekturális Terv](./img/architekturalis_terv.png)
 
 # Adattárolás
 A projektünk nem adatbázist használ az adatok tárolására, hanem JSON fájlokat. Minden kvíz egy külön mappában találhazó, amely tartalmaz pontosan egy data.json nevű fájlt, valamint egy img nevű mappát amelyben a kvízhez szülséges képek tárolódnak.
