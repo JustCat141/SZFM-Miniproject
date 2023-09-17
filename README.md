@@ -45,11 +45,15 @@ Fontos, hogy a webes platform minden felhasználó számára a megfelelő élmé
 =======
 7. Fogalomszótár:
 
-Fejlesztői igényspecifikáció:
--Fejlesztői vízió (Vágyálom): Olyan megrendelés érkezése, amit a jelenlegi kapacitás határidőn belül megfelelően teljesíteni tud.
--Fejlesztői cél:
+<h2>Fejlesztői igényspecifikáció:</h2>
+<h3>-Fejlesztői vízió (Vágyálom):</h3> 
+Olyan megrendelés érkezése, amit a jelenlegi kapacitás határidőn belül megfelelően teljesíteni tud. A fejlesztők képesek megtervezni és lefejleszteni hiánytalanul a kérést, emellett modern módszereket és eljárásokat tudnak alkalmazni. A megrendelővel a folyamatos kapcsolattartás a fejlesztést segíti és nem hátráltatja. Fontos a biztos alapok lefektetése!
+
+<h3>-Fejlesztői cél:</h3>
 A saját tudását felhasználva a megrendelő igényeinek maximális kielégítése, további projektekben is a bizalom elnyerése a megrendelő részéről.
--Fejlesztői követelmény:
+
+
+<h3>-Fejlesztői követelmény:</h3>
 1. Hardveres, szoftveres, illetve emberi erőforrásokkal lefejleszhető legyen a termék.
 2. Gördülékeny kommunikáció.
 3. Megfelelően becsülhető fejlesztési idő, homályos, kérdéses részek nélkül.
