@@ -17,6 +17,46 @@ A játék során kérdésekre kell válaszolni. Minden esetben 4 válaszlehetős
 
 # Architekturális terv
 
-# Adatbázis terv
+# Adattárolás
+A projektünk nem adatbázist használ az adatok tárolására, hanem JSON fájlokat. Minden kvíz egy külön mappában találhazó, amely tartalmaz pontosan egy data.json nevű fájlt, valamint egy img nevű mappát amelyben a kvízhez szülséges képek tárolódnak.
+
+## Az adattárolás módja
+Az adatok ezen struktúra alapján tárolüdnak:
+
+![Ábra az adatstruktúráról](./img/adat_struktura.png)
+
+Minden data.json fájl a következőképpen épül fel:
+```json
+{
+    "id": 1,
+    "quiz_name": "Magyarország Épületei",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Melyik híres magyar épület látható a képen?",
+            "image": "img/parlament.png",
+            "correct": 3,
+            "answers":
+            [
+                "Budai Várnegyed",
+                "Halászbástya",
+                "Parlament",
+                "Felcsúti stadion",
+            ]
+        },
+        // Többi kérdés...
+    ]
+}
+```
+
+## Adatok jelentése:
+- **id**: A kvíz azonosítója
+ - **quiz_name**: A kvíz neve
+ - **questions**: A kvízhez tartozó kérdéseket tárolja
+    - **id**: A kérdés azonosítója
+    - **question**: Maga a kérdés
+    - **image**: A kérdéshez tartozó képet útvonalát tárolja
+    - **correct**: A kérdéshez tartozó helyes válasz sorszámát tárolja
+    - **answers**: A kérdéshez tartozó válaszokat tárolja
 
 # Implementációs terv
