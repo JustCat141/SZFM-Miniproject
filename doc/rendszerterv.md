@@ -4,6 +4,21 @@ A tájékozottság és tudás folyamatos fejlesztése fontos szempont mindannyiu
 A játék során kérdésekre kell válaszolni. Minden esetben 4 válaszlehetőség áll rendelkezésre, és ezekből pontosan egy válasz helyes. Minden helyes válaszért egy pot jár, helytelenért pedig 0 pont. Cél a minnél több pont megszerzése (minnél több helyes válasz megadása). A játék végén egy oldalon jelenik meg a felhasználó által megadott helyes válaszok száma.
 
 # Projekt terv
+A projekten négy személy dolgozik:
+ - Barta Bence
+ - Nyeste Szilveszter István
+ - Pósán Róbert
+ - Somogyi Patrik
+
+A projekt elkészítése két hetet vesz igénybe. Ennek része a fejlesztés és a tesztelés. A feladatok a következőképpen osztódnak fel:
+ - **A Projekt Frontend része (fejlesztés, tesztelés):** 
+    - Róbert
+    - Szilveszter
+ - **A Projekt Backend része (fejlesztés, tesztelés):** 
+    - Bence
+    - Patrik
+ - **Az adattárolás megtervezése, kivitelezése:**
+    - Patrik
 
 # Üzleti folyamatok modellje
 
@@ -21,7 +36,7 @@ A játék során kérdésekre kell válaszolni. Minden esetben 4 válaszlehetős
 A projektünk nem adatbázist használ az adatok tárolására, hanem JSON fájlokat. Minden kvíz egy külön mappában találhazó, amely tartalmaz pontosan egy data.json nevű fájlt, valamint egy img nevű mappát amelyben a kvízhez szülséges képek tárolódnak.
 
 ## Az adattárolás módja
-Az adatok ezen struktúra alapján tárolüdnak:
+Az adatok ezen struktúra alapján tárolódnak:
 
 ![Ábra az adatstruktúráról](./img/adat_struktura.png)
 
@@ -43,7 +58,7 @@ Minden data.json fájl a következőképpen épül fel:
                 "Parlament",
                 "Felcsúti stadion",
             ]
-        },
+        }
         // Többi kérdés...
     ]
 }
