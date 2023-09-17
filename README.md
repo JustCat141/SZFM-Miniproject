@@ -51,6 +51,7 @@ Olyan megrendelés érkezése, amit a jelenlegi kapacitás határidőn belül me
 
 <h3>-Fejlesztői cél:</h3>
 A saját tudását felhasználva a megrendelő igényeinek maximális kielégítése, további projektekben is a bizalom elnyerése a megrendelő részéről.
+Egy olyan termék elkészítése, amely mindkét oldalról pozitív véleményt vált ki. Fejlesztő portfóliójának a bővítéséül szolgál. A fejlesztési görbe normális ütemtervben halad, nem stagnál, a felmerülő problémák, akadályok hamar orvosolhatók.
 
 
 <h3>-Fejlesztői követelmény:</h3>
