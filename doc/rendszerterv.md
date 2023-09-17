@@ -56,8 +56,6 @@ Az alkalmazás web platformra készül, böngészőből érhető el. A projekthe
 - [Adobe Photoshop CC 2019](https://www.adobe.com/products/photoshop.html)
 - Microsoft Paint
 
-# Absztrakt domain modell
-
 # Architekturális terv
 ![Architekturális Terv](./img/architekturalis_terv.png)
 
