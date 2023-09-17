@@ -52,9 +52,17 @@ Olyan megrendelés érkezése, amit a jelenlegi kapacitás határidőn belül me
 <h3>-Fejlesztői cél:</h3>
 A saját tudását felhasználva a megrendelő igényeinek maximális kielégítése, további projektekben is a bizalom elnyerése a megrendelő részéről.
 Egy olyan termék elkészítése, amely mindkét oldalról pozitív véleményt vált ki. Fejlesztő portfóliójának a bővítéséül szolgál. A fejlesztési görbe normális ütemtervben halad, nem stagnál, a felmerülő problémák, akadályok hamar orvosolhatók.
+A játék egyértelműen játszható legyen, érthető módón, fontos, hogy a fejlesztő értse mit csinál, így sokkal könnyebb a közös munka.
 
 
 <h3>-Fejlesztői követelmény:</h3>
-1. Hardveres, szoftveres, illetve emberi erőforrásokkal lefejleszhető legyen a termék.
-2. Gördülékeny kommunikáció.
-3. Megfelelően becsülhető fejlesztési idő, homályos, kérdéses részek nélkül.
+- Hardveres, szoftveres, illetve emberi erőforrásokkal lefejleszhető legyen a termék.
+- Gördülékeny kommunikáció a megrendelővel.
+- Megfelelően becsülhető fejlesztési idő.
+- Homályos, kérdéses részek nélküli terv készítése.
+- Esetleges extra kérések időben való tudósítása.
+- Pontos terv kidolgozása.
+- Normális tempóban haladás, nincs sürgetés.
+- A játékban használt képek megfelelő minőségű, jogtiszta birtoklása.
+- Egy felület, elképzelés ami szerint haladi lehet.
+- Folyamatos tesztelésre emberi biztosítása.
