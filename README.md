@@ -43,12 +43,12 @@ Fontos, hogy a webes platform minden felhasználó számára a megfelelő élmé
 
 - 5.7 A képek és a válaszok sorrendjüket tekintve véletlenszerűen jelenjenek meg.
 =======
-7. Fogalomszótár:
+<h2>6. Fogalomszótár:</h2>
 html - A HTML (angolul: HyperText Markup Language, „hiperszöveges jelölőnyelv”) egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki
 css - A CSS (Cascading Style Sheets, magyarul: „lépcsőzetes stíluslapok”) a számítástechnikában egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le.
 javascript - A JavaScript programozási nyelv egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.
 
-<h2>8. Fejlesztői igényspecifikáció:</h2>
+<h2>7. Fejlesztői igényspecifikáció:</h2>
 <h3>-Fejlesztői vízió (Vágyálom):</h3> 
 Olyan megrendelés érkezése, amit a jelenlegi kapacitás határidőn belül megfelelően teljesíteni tud. A fejlesztők képesek megtervezni és lefejleszteni hiánytalanul a kérést, emellett modern módszereket és eljárásokat tudnak alkalmazni. A megrendelővel a folyamatos kapcsolattartás a fejlesztést segíti és nem hátráltatja. Fontos a biztos alapok lefektetése!
 
@@ -62,22 +62,22 @@ A játék egyértelműen játszható legyen, érthető módón, fontos, hogy a f
 
 <h3>-Fejlesztői követelmény:</h3>
 
-- 8.1 Hardveres, szoftveres, illetve emberi erőforrásokkal lefejleszhető legyen a termék.
+- 7.1 Hardveres, szoftveres, illetve emberi erőforrásokkal lefejleszhető legyen a termék.
 
-- 8.2 Gördülékeny kommunikáció a megrendelővel.
+- 7.2 Gördülékeny kommunikáció a megrendelővel.
 
-- 8.3 Megfelelően becsülhető fejlesztési idő.
+- 7.3 Megfelelően becsülhető fejlesztési idő.
 
-- 8.4 Homályos, kérdéses részek nélküli terv készítése.
+- 7.4 Homályos, kérdéses részek nélküli terv készítése.
 
-- 8.5 Esetleges extra kérések időben való tudósítása.
+- 7.5 Esetleges extra kérések időben való tudósítása.
 
-- 8.6 Pontos terv kidolgozása.
+- 7.6 Pontos terv kidolgozása.
 
-- 8.7 Normális tempóban haladás, nincs sürgetés.
+- 7.7 Normális tempóban haladás, nincs sürgetés.
 
-- 8.8 A játékban használt képek megfelelő minőségű, jogtiszta birtoklása.
+- 7.8 A játékban használt képek megfelelő minőségű, jogtiszta birtoklása.
 
-- 8.9 Egy felület, elképzelés ami szerint haladi lehet.
+- 7.9 Egy felület, elképzelés ami szerint haladi lehet.
 
-- 8.10 Folyamatos tesztelésre emberi biztosítása.
+- 7.10 Folyamatos tesztelésre emberi biztosítása.
