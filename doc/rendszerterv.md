@@ -41,6 +41,19 @@ A képek jogtiszta megszerzése, letöltése és felhasználása a játékban.
 # Funkcionális terv
 
 # Fizikai környezet
+Az alkalmazás web platformra készül, böngészőből érhető el. A projekthez nem tartozik mobil nézet, csak számítógépes megjelenítés. Ettől függetlenül mobilról is ugyan úgy használható.
+
+### Fejlesztői eszközök
+**Integrált fejlesztői környezet**
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Visual Studio 2022](https://visualstudio.microsoft.com/vs/)
+
+**Kommunikációs platform**
+- [Discord](https://discord.com/)
+
+**Grafikai eszközök**
+- [Adobe Photoshop CC 2019](https://www.adobe.com/products/photoshop.html)
+- Microsoft Paint
 
 # Absztrakt domain modell
 
