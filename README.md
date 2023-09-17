@@ -44,25 +44,40 @@ Fontos, hogy a webes platform minden felhasználó számára a megfelelő élmé
 - 5.7 A képek és a válaszok sorrendjüket tekintve véletlenszerűen jelenjenek meg.
 =======
 7. Fogalomszótár:
+html - A HTML (angolul: HyperText Markup Language, „hiperszöveges jelölőnyelv”) egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki
+css - A CSS (Cascading Style Sheets, magyarul: „lépcsőzetes stíluslapok”) a számítástechnikában egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le.
+javascript - A JavaScript programozási nyelv egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.
 
-<h2>Fejlesztői igényspecifikáció:</h2>
+<h2>8. Fejlesztői igényspecifikáció:</h2>
 <h3>-Fejlesztői vízió (Vágyálom):</h3> 
 Olyan megrendelés érkezése, amit a jelenlegi kapacitás határidőn belül megfelelően teljesíteni tud. A fejlesztők képesek megtervezni és lefejleszteni hiánytalanul a kérést, emellett modern módszereket és eljárásokat tudnak alkalmazni. A megrendelővel a folyamatos kapcsolattartás a fejlesztést segíti és nem hátráltatja. Fontos a biztos alapok lefektetése!
 
 <h3>-Fejlesztői cél:</h3>
 A saját tudását felhasználva a megrendelő igényeinek maximális kielégítése, további projektekben is a bizalom elnyerése a megrendelő részéről.
-Egy olyan termék elkészítése, amely mindkét oldalról pozitív véleményt vált ki. Fejlesztő portfóliójának a bővítéséül szolgál. A fejlesztési görbe normális ütemtervben halad, nem stagnál, a felmerülő problémák, akadályok hamar orvosolhatók.
+Egy olyan termék elkészítése, amely mindkét oldalról pozitív véleményt vált ki.
+Fejlesztő portfóliójának a bővítéséül szolgál.
+A fejlesztési görbe normális ütemtervben halad, nem stagnál, a felmerülő problémák, akadályok hamar orvosolhatók.
 A játék egyértelműen játszható legyen, érthető módón, fontos, hogy a fejlesztő értse mit csinál, így sokkal könnyebb a közös munka.
 
 
 <h3>-Fejlesztői követelmény:</h3>
-- Hardveres, szoftveres, illetve emberi erőforrásokkal lefejleszhető legyen a termék.
-- Gördülékeny kommunikáció a megrendelővel.
-- Megfelelően becsülhető fejlesztési idő.
-- Homályos, kérdéses részek nélküli terv készítése.
-- Esetleges extra kérések időben való tudósítása.
-- Pontos terv kidolgozása.
-- Normális tempóban haladás, nincs sürgetés.
-- A játékban használt képek megfelelő minőségű, jogtiszta birtoklása.
-- Egy felület, elképzelés ami szerint haladi lehet.
-- Folyamatos tesztelésre emberi biztosítása.
+
+- 8.1 Hardveres, szoftveres, illetve emberi erőforrásokkal lefejleszhető legyen a termék.
+
+- 8.2 Gördülékeny kommunikáció a megrendelővel.
+
+- 8.3 Megfelelően becsülhető fejlesztési idő.
+
+- 8.4 Homályos, kérdéses részek nélküli terv készítése.
+
+- 8.5 Esetleges extra kérések időben való tudósítása.
+
+- 8.6 Pontos terv kidolgozása.
+
+- 8.7 Normális tempóban haladás, nincs sürgetés.
+
+- 8.8 A játékban használt képek megfelelő minőségű, jogtiszta birtoklása.
+
+- 8.9 Egy felület, elképzelés ami szerint haladi lehet.
+
+- 8.10 Folyamatos tesztelésre emberi biztosítása.
