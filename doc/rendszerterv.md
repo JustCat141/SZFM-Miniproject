@@ -24,6 +24,20 @@ A projekt elkészítése két hetet vesz igénybe. Ennek része a fejlesztés é
 
 # Követelmények
 
+## Funkcionális követelmények:
+-Helyek nevének tárolása egyedi azonosítóval.
+-Kérdések, helyes és helytelen válaszok tárolása.
+-Képek megjelenítése a könnyebb kitalálás érdekében.
+-Webes eszközön működés.
+-Felhasználóbarát felület.
+
+## Nem funkcionális követelmények:
+A felhasználók csak a saját feladatukkal tudnak foglalkozni, más játékosok eredményeinek a megtekintésére nincs lehetőség.
+
+## Törvényi előírások, szabványok:
+A képek jogtiszta megszerzése, letöltése és felhasználása a játékban.
+
+
 # Funkcionális terv
 
 # Fizikai környezet
