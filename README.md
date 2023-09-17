@@ -17,6 +17,7 @@ Fontos, hogy a webes platform minden felhasználó számára a megfelelő élmé
 
 - 3.3 Leadott válasz kiértékelése
 
+<<<<<<< HEAD
 - 3.4 Pontok összesítése
 
 - 3.5 A játék végeztével a pontok százalékos formátumban jelenjenek meg
@@ -42,3 +43,15 @@ Fontos, hogy a webes platform minden felhasználó számára a megfelelő élmé
 - 5.6 A képek egységes méretarányúak legyenek.
 
 - 5.7 A képek és a válaszok sorrendjüket tekintve véletlenszerűen jelenjenek meg.
+=======
+7. Fogalomszótár:
+
+Fejlesztői igényspecifikáció:
+-Fejlesztői vízió (Vágyálom): Olyan megrendelés érkezése, amit a jelenlegi kapacitás határidőn belül megfelelően teljesíteni tud.
+-Fejlesztői cél:
+A saját tudását felhasználva a megrendelő igényeinek maximális kielégítése, további projektekben is a bizalom elnyerése a megrendelő részéről.
+-Fejlesztői követelmény:
+1. Hardveres, szoftveres, illetve emberi erőforrásokkal lefejleszhető legyen a termék.
+2. Gördülékeny kommunikáció.
+3. Megfelelően becsülhető fejlesztési idő, homályos, kérdéses részek nélkül.
+>>>>>>> e6cfd7abf5607bc62d9725da44f3e7092d38dc99
