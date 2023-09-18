@@ -5,6 +5,12 @@ Egy olyan játékot készítünk, amellyel a fiatalok játékosan gyarapíthatj�
 A megrendelő célja, hogy bővítse az általa nyújtott oktatási szolgáltatásokat. Egy új rendszer lefejlesztését rendelte meg, amely interneten keresztül modern megoldásokat használva működik, és a XXI. század követelményei szerint elérhető számítógépen és mobilon is. Az online platform segítséget fog nyújtani földrajz tárgyból, hogy a diákok szélesebb körben megismerkedjenek a világ érdekességeivel játékos módon. Mindeddig csak matematika tárgyból használtak hasonló alkalmazást, de annyira tetszett a diákoknak, hogy a megrendelő felismerte, hogy ezzel a játékos oktatóprogrammal sokkal eredményesebbé teheti az oktatást, szemben a hagyományos táblára írással. Ezért megkért minket, hogy készítsük el számára a kívánt alkalmazást, ami sokkal aktívabbá és szórakoztatóbbá tudják tenni az oktatást.
 
 # Követelménylista
+|Modul|ID|Név|Verzió|Kifejtés|
+|-----|--|---|------|--------|
+|Jogosultság|K1|Bejelentkezési felület|1.0|A felhasználó bejelentkezhet e-mail címe és jelszava segítségével. Ha valamelyik nem megfelelő, akkor a felhasználó hibaüzenetet kap.|
+|Jogosultság|K2|Regisztráció|1.0|A felhasználó a nevének, e-mail címének és jelszavának megadásával regisztrálhatja magát. Ha valamelyik adat hiányzik, hibaüzenetet kap.
+|Jogosultság|K3|Jogosultsági szintek|1.0|Admin: új feladat feltöltése. Felhasználó: feladatok kitöltése, eredmények megtekintése, jelszó módosítása.|
+|Feladattípus|K4|Kvíz|1.0|Több kérdésből áll, 4 válaszlehetőségből pontosan 1 válasz helyes. A kvíz végén megkapja az elért pontszámot a felhasználó.|
 
 # Jelenlegi üzleti folyamatok modellje
 
