@@ -16,6 +16,7 @@ A megrendelő célja, hogy bővítse az általa nyújtott oktatási szolgáltat�
 A mai gyorsan változó technológiai világot nem tudta lekövetni még az oktatás. A diákok egyre kevésbé hajlandóak a tradícionális módon tanulni, mindenki a telefonját használja. Jelenleg a diákok tankönyvből tanulnak és papír alapú dolgozatokat írnak, amely nem csak hogy elavultnak számít, de nem is túl környezetbarát és az oktatóknak rengeteg idejük elmegy az egyesével történő javítással. Online platformunk erre fog egy kiváló megoldást biztosítani első körben földrajz tantárgyból.
 
 # Igényelt üzleti folyamatok modellje
+Mind a diákok, mind a tanárok számára nagy megkönnyebbülést fog hozni az online platformunk elkészülése. A diákoknak izgalmasabb órákat fog jelenteni, a tanárok számára pedig nyugodtabb délutánokat, ugyanis nem kell többet a javítással bajlódniuk, rögtön a kvíz kitöltése után automatikus visszajelzést kapnak a diákok az elért pontszámukról és hibás válaszok esetén a helyes választ is rögtön megtudják. Ráadásul a kérdések random sorrendje biztosítja hogy nem mindenki azonos sorrendben kapja azokat.
 
 # Használati esetek
 
