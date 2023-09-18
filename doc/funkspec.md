@@ -2,14 +2,26 @@
 Egy olyan játékot készítünk, amellyel a fiatalok játékosan gyarapíthatják földrajzi tudásukat. Ennek egy hatékony eszköze a kvíz. Ez egyben az oktató számára is hasznos lesz, ugyanis ki lehet szakadni a szürke hétköznapokból és megfelelve a mai kor követelményeinek, a számítógép mellett telefonon és tableten is elérhető lesz online platformunk. Ez a rendszer teljesen ingyenes lesz, bárki le tudja majd tölteni, vagy az interneten keresztül beregisztrál és máris hozzáfér. Az elérhető témák között lesznek majd városok, nevezetességek Magyarországról is, de szerte a világból. A kvíz végeztével az adott személy láthatja mennyi pontot szerzett, ez százalékos formában is megtalálható lesz, ezáltal kap egy visszaigazolást hogy mennyire sikerült elsajátítania az adott témakört.
 
 # Jelenlegi helyzet
+A megrendelő célja, hogy bővítse az általa nyújtott oktatási szolgáltatásokat. Egy új rendszer lefejlesztését rendelte meg, amely interneten keresztül modern megoldásokat használva működik, és a XXI. század követelményei szerint elérhető számítógépen és mobilon is. Az online platform segítséget fog nyújtani földrajz tárgyból, hogy a diákok szélesebb körben megismerkedjenek a világ érdekességeivel játékos módon. Mindeddig csak matematika tárgyból használtak hasonló alkalmazást, de annyira tetszett a diákoknak, hogy a megrendelő felismerte, hogy ezzel a játékos oktatóprogrammal sokkal eredményesebbé teheti az oktatást, szemben a hagyományos táblára írással. Ezért megkért minket, hogy készítsük el számára a kívánt alkalmazást, ami sokkal aktívabbá és szórakoztatóbbá tudják tenni az oktatást.
 
 # Követelménylista
+|Modul|ID|Név|Verzió|Kifejtés|
+|-----|--|---|------|--------|
+|Jogosultság|K1|Bejelentkezési felület|1.0|A felhasználó bejelentkezhet e-mail címe és jelszava segítségével. Ha valamelyik nem megfelelő, akkor a felhasználó hibaüzenetet kap.|
+|Jogosultság|K2|Regisztráció|1.0|A felhasználó a nevének, e-mail címének és jelszavának megadásával regisztrálhatja magát. Ha valamelyik adat hiányzik, hibaüzenetet kap.
+|Jogosultság|K3|Jogosultsági szintek|1.0|Admin: új feladat feltöltése. Felhasználó: feladatok kitöltése, eredmények megtekintése, jelszó módosítása.|
+|Feladattípus|K4|Kvíz|1.0|Több kérdésből áll, 4 válaszlehetőségből pontosan 1 válasz helyes. A kvíz végén megkapja az elért pontszámot a felhasználó.|
 
 # Jelenlegi üzleti folyamatok modellje
+A mai gyorsan változó technológiai világot nem tudta lekövetni még az oktatás. A diákok egyre kevésbé hajlandóak a tradícionális módon tanulni, mindenki a telefonját használja. Jelenleg a diákok tankönyvből tanulnak és papír alapú dolgozatokat írnak, amely nem csak hogy elavultnak számít, de nem is túl környezetbarát és az oktatóknak rengeteg idejük elmegy az egyesével történő javítással. Online platformunk erre fog egy kiváló megoldást biztosítani első körben földrajz tantárgyból.
 
 # Igényelt üzleti folyamatok modellje
+Mind a diákok, mind a tanárok számára nagy megkönnyebbülést fog hozni az online platformunk elkészülése. A diákoknak izgalmasabb órákat fog jelenteni, a tanárok számára pedig nyugodtabb délutánokat, ugyanis nem kell többet a javítással bajlódniuk, rögtön a kvíz kitöltése után automatikus visszajelzést kapnak a diákok az elért pontszámukról és hibás válaszok esetén a helyes választ is rögtön megtudják. Ráadásul a kérdések random sorrendje biztosítja hogy nem mindenki azonos sorrendben kapja azokat.
 
 # Használati esetek
+Admin: Beléphet minden más szerepkörbe, hogy a hibamentes működést ellenőrizhesse. Az ő feladatuk a rendszer problémamentes működtetése. Ez azt jelenti, hogy a teljes rendszerhez van hozzáférésük.
+
+Felhasználó: Csak a saját feladatával tud foglalkozni, kvízeket kitölteni, más játékosok eredményét nem tudja megtekinteni.
 
 # Képernyő tervek
 A projektünkhöz csak számítógépes megjelenítést tervezünk, ebből látható pár terv. A GUI-t letisztult, könnyen kezelhetőre terveztük.
