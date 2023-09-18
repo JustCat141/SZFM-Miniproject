@@ -115,4 +115,4 @@ Webes felületre tervezünk:
 A Webes felület főként HTML, CSS, illetve Javascript nyelven fog készülni. Ehhez segítégünkre lesz a REACT JS is, amellyel ezek egyszerre alkalmazhatók.
 Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és
 úgy fogjuk egymáshoz csatolni a jobb átláthatóság,
-és könnyebb bővítés érdekében. Ilyen szempontból ha kesőbbi javításban vagy fejlesztésben gondolkodnánk, így egyszerűbb lesz. Képes lesz felhasználni a Backend részen futó JSON fájlt amit a városok adatait tartalmazza, illetve a kérdéseket és válaszokat is.
+és könnyebb bővítés érdekében. Ilyen szempontból ha kesőbbi javításban vagy fejlesztésben gondolkodnánk, így egyszerűbb lesz. Képes lesz felhasználni a Backend részen futó JSON fájlt amit a városok adatait tartalmazza, illetve a kérdéseket és válaszokat is. A feladat backend részét Python-nal és Flask framework-el fogjuk megvalósítani.
