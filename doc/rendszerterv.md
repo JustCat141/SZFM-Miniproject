@@ -38,11 +38,6 @@ A felhasználók csak a saját feladatukkal tudnak foglalkozni, más játékosok
 ## Törvényi előírások, szabványok:
 A képek jogtiszta megszerzése, letöltése és felhasználása a játékban.
 
-<<<<<<< HEAD
-
-# Funkcionális terv
-
-=======
 # Funkcionális terv
 A felhasználónak:
 
@@ -55,7 +50,7 @@ A web alkalmazásnak:
 - Böngészőből elérhetőnek kell lennie
 - Html, Css, JavaScript, React Js frontend, Python, Flask backend, JSON fájlok az adatok tárolására
 - Az egyes részeknek megfelelően kell kommunikálni egymással
->>>>>>> Bence
+
 # Fizikai környezet
 Az alkalmazás web platformra készül, böngészőből érhető el. A projekthez nem tartozik mobil nézet, csak számítógépes megjelenítés. Ettől függetlenül mobilról is ugyan úgy használható.
 
