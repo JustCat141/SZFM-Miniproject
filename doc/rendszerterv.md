@@ -38,9 +38,24 @@ A felhasználók csak a saját feladatukkal tudnak foglalkozni, más játékosok
 ## Törvényi előírások, szabványok:
 A képek jogtiszta megszerzése, letöltése és felhasználása a játékban.
 
+<<<<<<< HEAD
 
 # Funkcionális terv
 
+=======
+# Funkcionális terv
+A felhasználónak:
+
+- Tudnia kell bejelentkezni
+- Kvízt kell tudnia elindítani
+- A játék végén látnia kell az elért, helyes pontszámot
+
+A web alkalmazásnak:
+
+- Böngészőből elérhetőnek kell lennie
+- Html, Css, JavaScript, React Js frontend, Python, Flask backend, JSON fájlok az adatok tárolására
+- Az egyes részeknek megfelelően kell kommunikálni egymással
+>>>>>>> Bence
 # Fizikai környezet
 Az alkalmazás web platformra készül, böngészőből érhető el. A projekthez nem tartozik mobil nézet, csak számítógépes megjelenítés. Ettől függetlenül mobilról is ugyan úgy használható.
 
@@ -106,4 +121,8 @@ Webes felületre tervezünk:
 A Webes felület főként HTML, CSS, illetve Javascript nyelven fog készülni. Ehhez segítégünkre lesz a REACT JS is, amellyel ezek egyszerre alkalmazhatók.
 Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és
 úgy fogjuk egymáshoz csatolni a jobb átláthatóság,
+<<<<<<< HEAD
 és könnyebb bővítés érdekében. Ilyen szempontból ha kesőbbi javításban vagy fejlesztésben gondolkodnánk, így egyszerűbb lesz. Képes lesz felhasználni a Backend részen futó JSON fájlt amit a városok adatait tartalmazza, illetve a kérdéseket és válaszokat is.
+=======
+és könnyebb bővítés érdekében. Ilyen szempontból ha kesőbbi javításban vagy fejlesztésben gondolkodnánk, így egyszerűbb lesz. Képes lesz felhasználni a Backend részen futó JSON fájlt amit a városok adatait tartalmazza, illetve a kérdéseket és válaszokat is. A feladat backend részét Python-nal és Flask framework-el fogjuk megvalósítani.
+>>>>>>> Bence
