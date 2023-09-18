@@ -19,7 +19,9 @@ A mai gyorsan változó technológiai világot nem tudta lekövetni még az okta
 Mind a diákok, mind a tanárok számára nagy megkönnyebbülést fog hozni az online platformunk elkészülése. A diákoknak izgalmasabb órákat fog jelenteni, a tanárok számára pedig nyugodtabb délutánokat, ugyanis nem kell többet a javítással bajlódniuk, rögtön a kvíz kitöltése után automatikus visszajelzést kapnak a diákok az elért pontszámukról és hibás válaszok esetén a helyes választ is rögtön megtudják. Ráadásul a kérdések random sorrendje biztosítja hogy nem mindenki azonos sorrendben kapja azokat.
 
 # Használati esetek
+Admin: Beléphet minden más szerepkörbe, hogy a hibamentes működést ellenőrizhesse. Az ő feladatuk a rendszer problémamentes működtetése. Ez azt jelenti, hogy a teljes rendszerhez van hozzáférésük.
 
+Felhasználó: Csak a saját feladatával tud foglalkozni, kvízeket kitölteni, más játékosok eredményét nem tudja megtekinteni.
 # Képernyő tervek
 A projektünkhöz csak számítógépes megjelenítést tervezünk, ebből látható pár terv. A GUI-t letisztult, könnyen kezelhetőre terveztük.
 
