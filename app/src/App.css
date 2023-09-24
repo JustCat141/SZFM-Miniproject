@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*The main menu*/
+
+.App {
+  background-color: #8A8AD6;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
+}
+
+h1 {
+  margin: 0;
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.menu {
+  padding-top: 5rem;
+}
+
+.topics {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+align-items: center;
+}
+
+.topic-choose, .btn {
+  color: #fff;
+  background-color: #3A0471;
+  width: 15rem;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  margin: 0 auto;
+  transition: all 0.4s;
+  border: none;
+}
+
+
