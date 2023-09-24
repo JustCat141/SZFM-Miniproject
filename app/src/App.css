@@ -130,3 +130,20 @@ align-items: center;
   width: 100%;
   font-weight: 700;
 }
+
+/*Result page style*/
+
+.score {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.result {
+  padding: 3rem;
+}
+
+.result-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
