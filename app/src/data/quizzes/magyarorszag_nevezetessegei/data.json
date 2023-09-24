@@ -31,7 +31,7 @@
         {
             "id": 3,
             "question": "Melyik nevezetes híd látható a képen?",
-            "image": "img/bd-szabadsag_hid.png",
+            "image": "img/bp-szabadsag_hid.png",
             "correct": 1,
             "answers":
             [

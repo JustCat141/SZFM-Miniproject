@@ -83,7 +83,7 @@
         {
             "id": 7,
             "question": "Melyik híres budapesti templom látható a képen?",
-            "image": "img/matyas-templom.jpg",
+            "image": "img/matyas_templom.jpg",
             "correct": 1,
             "answers":
             [
