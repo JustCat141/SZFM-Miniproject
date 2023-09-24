@@ -6,7 +6,7 @@ A "Place Detective" játék a már jól megszokott stratégiát követi. Megjele
 <h2>Megrendelői igényspecifikáció</h2>
 
 <h3>2. Vágyálom rendszer: </h3>
-Szükség van egy webes felületre ahol a legyen lehetőség a fent említett játékra. A webes terület tartalmazzon egy kép megjelenítésére alkamas mezőt, illetve négy gombot, amellyel a felhasználó választ adhat. Válaszadás után indikálja a felhasználóval a válasz helyességét. Mindemellett még elengedhetetlen egy json fájl, mely az adott képeket tárolja, illetve az adatokat.
+Szükség van egy webes felületre ahol legyen lehetőség a fent említett játékra. A webes terület tartalmazzon egy kép megjelenítésére alkamas mezőt, illetve négy gombot, amellyel a felhasználó választ adhat. Válaszadás után indikálja a felhasználóval a válasz helyességét. Mindemellett még elengedhetetlen egy json fájl, mely az adott képeket tárolja, illetve az adatokat.
 Fontos, hogy a webes platform minden felhasználó számára a megfelelő élményt legyen képes nyújtani, ennek érdekében az oldal reszponzív kell legyen.
 
 <h3>3. Jelenlegi folyamatok: </h3>

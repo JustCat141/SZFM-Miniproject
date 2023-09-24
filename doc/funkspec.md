@@ -1,8 +1,23 @@
 # Áttekintés
-Egy olyan játékot készítünk, amellyel a fiatalok játékosan gyarapíthatják földrajzi tudásukat. Ennek egy hatékony eszköze a kvíz. Ez egyben az oktató számára is hasznos lesz, ugyanis ki lehet szakadni a szürke hétköznapokból és megfelelve a mai kor követelményeinek, a számítógép mellett telefonon és tableten is elérhető lesz online platformunk. Ez a rendszer teljesen ingyenes lesz, bárki le tudja majd tölteni, vagy az interneten keresztül beregisztrál és máris hozzáfér. Az elérhető témák között lesznek majd városok, nevezetességek Magyarországról is, de szerte a világból. A kvíz végeztével az adott személy láthatja mennyi pontot szerzett, ez százalékos formában is megtalálható lesz, ezáltal kap egy visszaigazolást hogy mennyire sikerült elsajátítania az adott témakört.
+Egy olyan játékot készítünk, amellyel a fiatalok játékosan gyarapíthatják földrajzi tudásukat. 
+Ennek egy hatékony eszköze a kvíz. 
+Ez egyben az oktató számára is hasznos lesz, ugyanis ki lehet szakadni a szürke hétköznapokból és megfelelve a mai kor követelményeinek, a számítógép mellett telefonon és tableten is elérhető lesz online platformunk. 
+Ez a rendszer teljesen ingyenes lesz, bárki le tudja majd tölteni, vagy az interneten keresztül beregisztrál és máris hozzáfér. 
+Az elérhető témák között lesznek majd városok, nevezetességek Magyarországról is, de szerte a világból. 
+A kvíz végeztével az adott személy láthatja mennyi pontot szerzett, ez százalékos formában is megtalálható lesz, ezáltal kap egy visszaigazolást hogy mennyire sikerült elsajátítania az adott témakört.
+A "Place Detective" játék a már jól megszokott stratégiát fogja követni. 
+Megjelenik egy kép egy nevezetes épületről és négy válaszlehetőség. 
+A felhasználó ki kell válassza azt a várost és országot melyben az adott nevezetesség megtalálható. 
+A válaszok közül egy helyes, többi helytelen. 
+A játék célja a lehető legtöbb pont megszerzése és számunkra fontos a diákok edukálása, ezért minden válaszadás után az adott nevezetességről érdekességeket olvashatnak. 
+Megfelelve a mai kor követelményeinek, az oldal okostelefonon is megfelelően kell működjön.
 
 # Jelenlegi helyzet
-A megrendelő célja, hogy bővítse az általa nyújtott oktatási szolgáltatásokat. Egy új rendszer lefejlesztését rendelte meg, amely interneten keresztül modern megoldásokat használva működik, és a XXI. század követelményei szerint elérhető számítógépen és mobilon is. Az online platform segítséget fog nyújtani földrajz tárgyból, hogy a diákok szélesebb körben megismerkedjenek a világ érdekességeivel játékos módon. Mindeddig csak matematika tárgyból használtak hasonló alkalmazást, de annyira tetszett a diákoknak, hogy a megrendelő felismerte, hogy ezzel a játékos oktatóprogrammal sokkal eredményesebbé teheti az oktatást, szemben a hagyományos táblára írással. Ezért megkért minket, hogy készítsük el számára a kívánt alkalmazást, ami sokkal aktívabbá és szórakoztatóbbá tudják tenni az oktatást.
+A megrendelő célja, hogy bővítse az általa nyújtott oktatási szolgáltatásokat. 
+Egy új rendszer lefejlesztését rendelte meg, amely interneten keresztül modern megoldásokat használva működik, és a XXI. század követelményei szerint elérhető számítógépen és mobilon is. 
+Az online platform segítséget fog nyújtani földrajz tárgyból, hogy a diákok szélesebb körben megismerkedjenek a világ érdekességeivel játékos módon. 
+Mindeddig csak matematika tárgyból használtak hasonló alkalmazást, de annyira tetszett a diákoknak, hogy a megrendelő felismerte, hogy ezzel a játékos oktatóprogrammal sokkal eredményesebbé teheti az oktatást, szemben a hagyományos táblára írással. 
+Ezért megkért minket, hogy készítsük el számára a kívánt alkalmazást, ami sokkal aktívabbá és szórakoztatóbbá tudják tenni az oktatást.
 
 # Követelménylista
 |Modul|ID|Név|Verzió|Kifejtés|
@@ -13,10 +28,31 @@ A megrendelő célja, hogy bővítse az általa nyújtott oktatási szolgáltat�
 |Feladattípus|K4|Kvíz|1.0|Több kérdésből áll, 4 válaszlehetőségből pontosan 1 válasz helyes. A kvíz végén megkapja az elért pontszámot a felhasználó.|
 
 # Jelenlegi üzleti folyamatok modellje
-A mai gyorsan változó technológiai világot nem tudta lekövetni még az oktatás. A diákok egyre kevésbé hajlandóak a tradícionális módon tanulni, mindenki a telefonját használja. Jelenleg a diákok tankönyvből tanulnak és papír alapú dolgozatokat írnak, amely nem csak hogy elavultnak számít, de nem is túl környezetbarát és az oktatóknak rengeteg idejük elmegy az egyesével történő javítással. Online platformunk erre fog egy kiváló megoldást biztosítani első körben földrajz tantárgyból.
+A mai gyorsan változó technológiai világot nem tudta lekövetni még az oktatás. A diákok egyre kevésbé hajlandóak a tradícionális módon tanulni, mindenki a telefonját használja. 
+Jelenleg a diákok tankönyvből tanulnak és papír alapú dolgozatokat írnak, amely nem csak hogy elavultnak számít, de nem is túl környezetbarát és az oktatóknak rengeteg idejük elmegy az egyesével történő javítással. 
+Online platformunk erre fog egy kiváló megoldást biztosítani első körben földrajz tantárgyból.
+
+Jelenlegi folyamatok:
+
+- Képek véletlenszerű kiválasztása
+
+- Képekhez tartozó válaszlehetőségek véletlenszerű kiválasztása
+
+- Leadott válasz kiértékelése
+
+- Pontok összesítése
+
+- A játék végeztével a pontok százalékos formátumban jelenjenek meg
 
 # Igényelt üzleti folyamatok modellje
-Mind a diákok, mind a tanárok számára nagy megkönnyebbülést fog hozni az online platformunk elkészülése. A diákoknak izgalmasabb órákat fog jelenteni, a tanárok számára pedig nyugodtabb délutánokat, ugyanis nem kell többet a javítással bajlódniuk, rögtön a kvíz kitöltése után automatikus visszajelzést kapnak a diákok az elért pontszámukról és hibás válaszok esetén a helyes választ is rögtön megtudják. Ráadásul a kérdések random sorrendje biztosítja hogy nem mindenki azonos sorrendben kapja azokat.
+Mind a diákok, mind a tanárok számára nagy megkönnyebbülést fog hozni az online platformunk elkészülése. 
+A diákoknak izgalmasabb órákat fog jelenteni, a tanárok számára pedig nyugodtabb délutánokat, ugyanis nem kell többet a javítással bajlódniuk, rögtön a kvíz kitöltése után automatikus visszajelzést kapnak a diákok az elért pontszámukról és hibás válaszok esetén a helyes választ is rögtön megtudják. 
+Ráadásul a kérdések random sorrendje biztosítja hogy nem mindenki azonos sorrendben kapja azokat. 
+Szükség van egy webes felületre ahol legyen lehetőség a fent említett játékra. 
+A webes terület tartalmazzon egy kép megjelenítésére alkamas mezőt, illetve négy gombot, amellyel a felhasználó választ adhat. 
+Válaszadás után indikálja a felhasználóval a válasz helyességét. 
+Mindemellett még elengedhetetlen egy json fájl, mely az adott képeket tárolja, illetve az adatokat.
+Fontos, hogy a webes platform minden felhasználó számára a megfelelő élményt legyen képes nyújtani, ennek érdekében az oldal reszponzív kell legyen.
 
 # Használati esetek
 Admin: Beléphet minden más szerepkörbe, hogy a hibamentes működést ellenőrizhesse. Az ő feladatuk a rendszer problémamentes működtetése. Ez azt jelenti, hogy a teljes rendszerhez van hozzáférésük.
@@ -35,13 +71,18 @@ Ha a felhasználó helyesen válaszol egy adott kérdésre, akkor a válasz gomb
 
 ![A GUI helyes válasz esetén](./img/quiz_ingame_correct.png)
 
-Helytelen válasz esetén a választott válasz gombja pirosta változik, és a helyes válasz gombja zöldre.
+Helytelen válasz esetén a választott válasz gombja pirosra változik, és a helyes válasz gombja zöldre.
 
 ![A GUI helytelen válasz esetén](./img/quiz_ingame_incorrect.png)
 
 # Forgatókönyv
 
-A felhasználó a menübe lépést követően kiválaszt egy kvíz sorozatot. Betöltődik a kérdés, a kép, illetve a négy válaszlehetőség. A játékosnak a válaszadásra nincs időlimitje. A felhasználó válaszol a kérdésre a négy opció közül, majd a helyes válasz gombja zöldre vált. Emellett megjelenik a *tovább gomb* amellyel a következő kérdés töltődik be. Ha helyesen válaszol kap egy pontot, ha helytelenül 0 pontot kap, emellett a GUI-n a válasza piros színre vált.
+1. A felhasználó a menübe lépést követően kiválaszt egy kvíz sorozatot. 
+2. Betöltődik a kérdés, a kép, illetve a négy válaszlehetőség. 
+3. A játékosnak a válaszadásra nincs időlimitje.
+4. A felhasználó válaszol a kérdésre a négy opció közül, majd a helyes válasz gombja zöldre vált. 
+5. Emellett megjelenik a *tovább gomb* amellyel a következő kérdés töltődik be. 
+6. Ha helyesen válaszol kap egy pontot, ha helytelenül 0 pontot kap, emellett a GUI-n a válasza piros színre vált.
 
 # Fogalomszótár
 ### html
