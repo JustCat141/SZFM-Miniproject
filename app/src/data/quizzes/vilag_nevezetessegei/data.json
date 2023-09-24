@@ -1,15 +1,136 @@
 {
     "id": 1,
-    "quiz_name": "",
+    "quiz_name": "A világ 10 leglátogatottabb látványossága",
     "questions": [
         {
             "id": 1,
-            "question": "",
-            "image": "",
-            "correct": "",
+            "question": "Melyik világhírú katolikus katedrális látható a képen?",
+            "image": "img/notredameparis.jpg",
+            "correct": 1,
             "answers":
             [
-                
+                "Notre-Dame, Párizs, Franciaország",
+                "York-i Katedrális, York, Anglia",
+                "Canterburyi Katedrális, Canterbury, Anglia",
+                "Reimsi Katedrális, Reims, Franciaország"
             ]
-        }   ]
+        },
+        {
+            "id": 2,
+            "question": "A világ hét új csodája közé is választották, melyik ez a világhírű látványosság?",
+            "image": "img/the-up-of-the-great-wall.jpeg",
+            "correct": 1,
+            "answers":
+            [
+                "Kínai nagy fal, Kína",
+                "Saqsaywaman, Peru",
+                "Babilon falai, Babilon",
+                "Siratófal, Jeruzsálem"
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Melyik világörökségi helyszín látható a képen?",
+            "image": "img/sydney-opera-house-by-morgan-bell1.jpg",
+            "correct": 1,
+            "answers":
+            [
+                "Sydney Operaház, Sydney, Ausztrália",
+                "Darling Harbour, Ausztrália",
+                "Royal Botanic Garden Sydney, Ausztrália",
+                "Bécsi Állami Operaház, Bécs, Ausztria"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Melyik nevezetes Franciaországi épület látható a képen?",
+            "image": "img/eiffel-tower.jpg",
+            "correct": 1,
+            "answers":
+            [
+                "Eiffel-torony, Párizs",
+                "Louvre Múzeum, Párizs",
+                "Arc de Triomphe, Párizs",
+                "Notre-Dame-székesegyház, Párizs"
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Melyik nevezetes Amerikai épület látható a képen?",
+            "image": "img/lincoln_memorial_overhead.jpg",
+            "correct": 1,
+            "answers":
+            [
+                "Lincoln-emlékmű, Washington D.C., USA",
+                "Washington-emlékmű, Washington D.C, USA",
+                "Thomas Jefferson-emlékmű, Washington D.C, USA",
+                "Fehér Ház, Washington D.C, USA"
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Melyik híres nevezetesség található a képen?",
+            "image": "img/the_colosseum_rome_italy-normal.jpg",
+            "correct": 1,
+            "answers":
+            [
+                "Colosseum, Róma, Olaszország",
+                "Arènes De Nîmes, Franciaország",
+                "Pula Arena, Horvátország",
+                "El Djem, Tunézia"
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Melyik világhírű szobor látható a képen?",
+            "image": "img/statue-of-liberty-in-new-york-city-united-states.jpg",
+            "correct": 1,
+            "answers":
+            [
+                "Szabadság-szobor, New York, USA",
+                "Ling Shan-i Nagy Buddha, Kínad",
+                "Nagy Buddha, Thaiföld",
+                "Az egység szobra, India"
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Az UNESCO Világörökség részét képzi a következő épületegyüttes, Mi a neve?",
+            "image": "img/granada-alhambra1.jpg",
+            "correct": 1,
+            "answers":
+            [
+                "Alhambra, Granada, Spanyolország ",
+                "Chichen Itza, Mexikó",
+                "Havanna óvárosa, Kuba",
+                "Askia síremléke, Uganda"
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Hol találhatóak ezek az ie. 2570-ig építtetett piramisok?",
+            "image": "img/pyramids_2271107.jpg",
+            "correct": 1,
+            "answers":
+            [
+                "Gízai Piramisok, Kairó, Egyiptom",
+                "Szudáni piramisok, Szudán",
+                "Boszniai piramisok, Bosznia",
+                "Kínai piramisok, Kína"
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Melyik nevezetes indiai épület látható a képen?",
+            "image": "img/taj-mahal.jpg",
+            "correct": 1,
+            "answers":
+            [
+                "Taj Mahal, Agra, India",
+                "Hawa Mahal, Jaipur, India",
+                "Dharamszala, India",
+                "Ranakpur templom, India"
+            ]
+        }
+    ]
 }

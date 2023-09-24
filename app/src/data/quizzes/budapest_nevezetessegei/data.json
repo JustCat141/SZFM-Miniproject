@@ -1,15 +1,149 @@
 {
     "id": 1,
-    "quiz_name": "",
+    "quiz_name": "Budapest nevezetességei",
     "questions": [
         {
             "id": 1,
-            "question": "",
-            "image": "",
-            "correct": "",
+            "question": "Melyik budapesti nevezetesség látható a képen?",
+            "image": "img/budavari-palota.jpg",
+            "correct": 1,
             "answers":
             [
-                
+                "Budavári Palota",
+                "Országház",
+                "Festetics-Kastély",
+                "Sándor-palota"
             ]
-        }   ]
+        },
+        {
+            "id": 2,
+            "question": "Melyik budapesti műemlék látható a képen?",
+            "image": "img/halaszbastya.jpg",
+            "correct": 1,
+            "answers":
+            [
+                "Halászbástya",
+                "Mátyás Templom",
+                "Budavári Palota",
+                "Országház"
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Melyik budapesti, világörökségi helyszín látható a képen?",
+            "image": "img/hosok_tere.jpg",
+            "correct": 1,
+            "answers":
+            [
+                "Hősök tere",
+                "Dohány Utcai Zsinagóga",
+                "Budavári Palota",
+                "Halászbástya"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Melyik budapesti híd látható a képen?",
+            "image": "img/lanchid.jpg",
+            "correct": 1,
+            "answers":
+            [
+                "Lánchíd",
+                "Margit híd",
+                "Erzsébet híd",
+                "Petőfi híd"
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Melyik nevezetes budapesti épület látható a képen?",
+            "image": "img/magyar-allami-operahaz.jpg",
+            "correct": 1,
+            "answers":
+            [
+                "Magyar Állami Operaház",
+                "Erkel Színház",
+                "Nemzeti Színház",
+                "Operettszínház"
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Melyik budapesti nevezetesség található a képen?",
+            "image": "img/margitsziget.jpg",
+            "correct": 1,
+            "answers":
+            [
+                "Margitsziget",
+                "Hősök Tere",
+                "Szépművészeti Múzeum",
+                "Gellért Fürdő"
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Melyik híres budapesti templom látható a képen?",
+            "image": "img/matyas_templom.jpg",
+            "correct": 1,
+            "answers":
+            [
+                "Mátyás Templom",
+                "Mária Magdolna-templom",
+                "Óbudai evangélikus templom",
+                "Szent István-bazilika"
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Melyik budapesti középület látható a képen?",
+            "image": "img/parlament.jpg",
+            "correct": 1,
+            "answers":
+            [
+                "Parlament",
+                "Budavári Palota",
+                "Halászbástya",
+                "Puskás Aréna"
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Melyik híres budapesti fürdő látható a képen?",
+            "image": "img/szechenyi_furdo.jpg",
+            "correct": 1,
+            "answers":
+            [
+                "Széchenyi-fürdő",
+                "Rudas Gyógyfürdő",
+                "Palatinus Gyógy-, Strand- és Hullámfürdő",
+                "Aquaworld Resort"
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Melyik jelentős budapesti egyházi épület látható a képen?",
+            "image": "img/szent-istvan-bazilika.jpg",
+            "correct": 1,
+            "answers":
+            [
+                "Szent István Bazilika",
+                "Speyeri dóm",
+                "de Salta bazilika",
+                "Magyarok Nagyasszonya-bazilika"
+            ]
+        },
+        {
+            "id": 11,
+            "question": "Melyik nevezetes budapesti épület látható a képen?",
+            "image": "img/vajdahunyad_vara.jpg",
+            "correct": 1,
+            "answers":
+            [
+                "Vajdahunyad vára",
+                "Mezőgazdasági Múzeum",
+                "Zichy-kastély",
+                "Esterházy Palota"
+            ]
+        }
+    ]
 }
