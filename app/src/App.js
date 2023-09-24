@@ -61,6 +61,47 @@ function Quiz({ topic, onBackToMenu, data, imgpath }) {
   const [quizFinished, setQuizFinished] = useState(false);
   const [score, setScore] = useState(0);
 
+  useEffect(() => {
+    // Load questions from the data variable
+    const loadedQuestions = data.questions.map((question) => ({
+      ...question,
+      answers: shuffleArray(question.answers),
+    }));
+
+    setQuestions(shuffleArray(loadedQuestions));
+  }, [data]);
+
+  const handleAnswerClick = (answerIndex) => {
+    if (questions[currentQuestion].correct === answerIndex) {
+      setScore(score + 1);
+    }
+
+    setSelectedAnswer(answerIndex);
+
+    if (currentQuestion < questions.length - 1) {
+      setCurrentQuestion(currentQuestion + 1);
+      setSelectedAnswer(null);
+    } else {
+      setQuizFinished(true);
+    }
+  };
+
+  const currentQuestionData = questions[currentQuestion];
+
+  const resetQuiz = () => {
+    setCurrentQuestion(0);
+    setSelectedAnswer(null);
+    setQuizFinished(false);
+    setScore(0);
+    // Shuffle the questions and answer choices again
+    const loadedQuestions = data.questions.map((question) => ({
+      ...question,
+      answers: shuffleArray(question.answers),
+    }));
+    setQuestions(shuffleArray(loadedQuestions));
+  };
+
+
   return (
     <div className="play">
  
