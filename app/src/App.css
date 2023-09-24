@@ -81,4 +81,52 @@ align-items: center;
   border: none;
 }
 
+/*The quiz styles*/
 
+.btn:hover {
+  background-color: #3a047170;
+  box-shadow: 0px 2px 10px 2px #61096175;
+}
+
+.header h1 {
+  font-size: 3rem;
+}
+
+.header {
+  padding: 1rem 0 0.5rem 0;
+  background-color: #3A0471;
+  margin-bottom: 2rem;
+}
+
+.question-number {
+  font-size: 1.5rem;
+}
+
+
+.pic {
+  height: 25rem;
+  width: 40rem;
+  border-radius: 2rem;
+  box-shadow: 0px 5px 15px 5px #3a047175;
+  overflow: hidden;
+  margin: auto;
+}
+
+.options {
+  margin: auto;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 0 3rem;
+  column-gap: 1rem;
+  row-gap: 2rem;
+}
+
+
+.options .btn {
+  width: 100%;
+  font-weight: 700;
+}
