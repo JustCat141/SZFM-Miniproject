@@ -44,3 +44,15 @@ Helytelen válasz esetén a választott válasz gombja pirosta változik, és a 
 A felhasználó a menübe lépést követően kiválaszt egy kvíz sorozatot. Betöltődik a kérdés, a kép, illetve a négy válaszlehetőség. A játékosnak a válaszadásra nincs időlimitje. A felhasználó válaszol a kérdésre a négy opció közül, majd a helyes válasz gombja zöldre vált. Emellett megjelenik a *tovább gomb* amellyel a következő kérdés töltődik be. Ha helyesen válaszol kap egy pontot, ha helytelenül 0 pontot kap, emellett a GUI-n a válasza piros színre vált.
 
 # Fogalomszótár
+### html
+- A HTML (angolul: HyperText Markup Language, „hiperszöveges jelölőnyelv”) egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki 
+### css
+- A CSS (Cascading Style Sheets, magyarul: „lépcsőzetes stíluslapok”) a számítástechnikában egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le.
+### javascript
+- A JavaScript programozási nyelv egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.
+### GUI
+- A grafikus felhasználói felület vagy grafikus felhasználói interfész (angolul graphical user interface, röviden GUI) a számítástechnikában olyan, a számítógép és ember közti kapcsolatot megvalósító elemek összessége, melyek a monitor képernyőjén szöveges és rajzos elemek együtteseként jelennek meg. A grafikus felhasználói felületeken alapvető szerepe van a mutatóeszközök, például az egér használatának, amelyekkel a grafikus felület elemei intuitív módon, a fizikai világ egyfajta modelljeként kezelhetők.
+### jogosultság
+ - Az informatikában a hozzáférési jogosultság feladata a számítógép erőforrásainak vagy magának a számítógépes hálózatnak a védelme illetéktelen felhasználástól. Ezért gyakran összekeverik a felhasználóazonosítással (authentication).
+### admin
+ - A rendszergazda vagy admin egy számítógépes rendszer felügyeletéért felelős személy. A szoftveres, hardveres és hálózati problémák megoldását is ő végzi, illetve ő hozza létre az egyes felhasználókat és azok jogosultságait is. A számítógépek esetében a rendszergazda (admin, root) jogosultságú felhasználó rendelkezik azzal a hatáskörrel, hogy programokat telepítsen és törölje és megváltoztassa a számítógép alapbeállításait, létrehozzon és töröljön felhasználói fiókokat.
