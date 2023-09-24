@@ -2,9 +2,8 @@
 
 Tesztelő: Barta Bence
 
-| **Place Detective rendszer tesztelése** |  |  |  |  |  |  |
+| **Place Detective rendszer tesztelése** |||||||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|  |  |  |  |  |  |  |
 | Böngésző | Teszt eset | Lépés | Leírás | Státusz | Várt eredmény | Kapott eredmény |
 | Firefox | Megjelenés | 1 | menü megjelenése | passed | A menü helyesen jelenik meg a Mozilla Firefox böngésző ablakában | A menü helyesen jelenik meg a Mozilla Firefox böngésző ablakában |
 |  |  | 2 | kvíz választás | passed | A kvíz nevére kattintva, a megfelelő oldalra jutunk és megjelenik az 1. kérdés | A kvíz nevére kattintva, a megfelelő oldalra jutunk és megjelenik az 1. kérdés |
