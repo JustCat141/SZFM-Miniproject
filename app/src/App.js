@@ -159,7 +159,9 @@ function Quiz({ topic, onBackToMenu, data, imgpath }) {
       ) : (
         <div>
           <div className="header">
-            <h1>{topic} quiz</h1>
+            <h1>{topic} quiz</h1>     
+
+              {/* <h1 >  {questions[currentQuestion+1].question}</h1> */}
             <p className="question-number">Question {currentQuestion + 1}/{questions.length}</p>
           </div>
           {currentQuestionData && (
