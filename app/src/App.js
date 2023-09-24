@@ -5,7 +5,6 @@ import buddata from "./data/quizzes/budapest_nevezetessegei/data.json";
 import worlddata from "./data/quizzes/vilag_nevezetessegei/data.json";
 import europedata from "./data/quizzes/europa_nevezetessegei/data.json";
 
-
 function App() {
   const [selectedTopic, setSelectedTopic] = useState(null);
 
@@ -101,10 +100,18 @@ function Quiz({ topic, onBackToMenu, data, imgpath }) {
     setQuestions(shuffleArray(loadedQuestions));
   };
 
-
   return (
     <div className="play">
- 
+      {quizFinished ? (
+        <div className="result">
+          <h1>Quiz Finished!</h1>
+          <p>Your Score: {score}/{questions.length}</p>
+          <div className="result-buttons">
+            <button className="btn" onClick={resetQuiz}>Retry</button>
+            <button className="btn" onClick={() => onBackToMenu()}>Main Menu</button>
+          </div>
+        </div>
+      ) : (
         <div>
           <div className="header">
             <h1>{topic} quiz</h1>
@@ -131,6 +138,7 @@ function Quiz({ topic, onBackToMenu, data, imgpath }) {
             </div>
           )}
         </div>
+      )}
     </div>
   );
 }
