@@ -1,0 +1,136 @@
+{
+    "id": 3,
+    "quiz_name": "Európa Nevezetességei",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Melyik városban található a híres Atomium mű?",
+            "image": "img/atomium.png",
+            "correct": 1,
+            "answers":
+            [
+                "Brüsszel",
+                "Berlin",
+                "Gent",
+                "Amszterdam"
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Melyik országban található a híres Abbaye du Mont-Saint-Michel kolostor?",
+            "image": "img/abbaye_du_mont-saint-michel.png",
+            "correct": 1,
+            "answers":
+            [
+                "Franciaország",
+                "Anglia",
+                "Wales",
+                "Skócia"
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Melyik európai városban található a képen látható épület?",
+            "image": "img/akropolisz.png",
+            "correct": 1,
+            "answers":
+            [
+                "Athén",
+                "Róma",
+                "Korinthosz",
+                "Ankara"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Melyik városban található a Sagrada Familia templom?", 
+            "image": "img/sagrada_familia.png",
+            "correct": 1,
+            "answers":
+            [
+                "Barcelona",
+                "Madrid",
+                "Róma",
+                "Párizs"
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Melyik városban található a Louvre múzeum?",
+            "image": "img/louvre.png",
+            "correct": 1,
+            "answers":
+            [
+                "Párizs",
+                "London",
+                "Róma",
+                "Madrid"
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Melyik városban található a Buckingham-palota?",
+            "image": "img/buckingham_palota.png",
+            "correct": 1,
+            "answers":
+            [
+                "London",
+                "Buckingham",
+                "Luton",
+                "Párizs"
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Melyik országban található a Stonehenge?",
+            "image": "img/stonehenge.png",
+            "correct": 1,
+            "answers":
+            [
+                "Anglia",
+                "Skócia",
+                "Írország",
+                "Wales"
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Melyik országban találhatóak a híres fekete homokos tengerpartok?",
+            "image": "img/izland.png",
+            "correct": 1,
+            "answers":
+            [
+                "Izland",
+                "Dánia",
+                "Svédország",
+                "Norvégia"
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Melyik városban található a Boldog Vazul-székesegyház",
+            "image": "img/boldog_vazul.png",
+            "correct": 1,
+            "answers":
+            [
+                "Moszkva",
+                "Szentpétervár",
+                "Kiev",
+                "Minszk"
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Melyik országban található a Geiranger-fjord?",
+            "image": "img/geiranger_fjord.png",
+            "correct": 1,
+            "answers":
+            [
+                "Norvégia",
+                "Svédország",
+                "Finnország",
+                "Dánia"
+            ]
+        }
+    ]
+}
