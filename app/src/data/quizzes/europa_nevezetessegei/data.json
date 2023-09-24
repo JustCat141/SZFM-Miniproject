@@ -1,135 +1,135 @@
 {
-    "id": 1,
-    "quiz_name": "Magyarország Nevezetességei",
+    "id": 3,
+    "quiz_name": "Európa Nevezetességei",
     "questions": [
         {
             "id": 1,
-            "question": "Melyik híres magyarországi hegy látható a képen?",
-            "image": "img/badacsony-hegy.png",
-            "correct": 3,
+            "question": "Melyik városban található a híres Atomium mű?",
+            "image": "img/atomium.png",
+            "correct": 1,
             "answers":
             [
-                "Szent György-hegy",
-                "Csobánc",
-                "Badacsony",
-                "Gulács"
+                "Brüsszel",
+                "Berlin",
+                "Gent",
+                "Amszterdam"
             ]
         },
         {
             "id": 2,
-            "question": "Melyik híres vár látható a képen?",
-            "image": "img/boldogko-var.png",
-            "correct": 4,
+            "question": "Melyik országban található a híres Abbaye du Mont-Saint-Michel kolostor?",
+            "image": "img/abbaye_du_mont-saint-michel.png",
+            "correct": 1,
             "answers":
             [
-                "Regéci Vár",
-                "Szigligeti vár",
-                "Egri Vár",
-                "Boldogkői Vár"
+                "Franciaország",
+                "Anglia",
+                "Wales",
+                "Skócia"
             ]
         },
         {
             "id": 3,
-            "question": "Melyik nevezetes híd látható a képen?",
-            "image": "img/bd-szabadsag_hid.png",
+            "question": "Melyik európai városban található a képen látható épület?",
+            "image": "img/akropolisz.png",
             "correct": 1,
             "answers":
             [
-                "Szabadság Híd",
-                "Erzsébet Híd",
-                "Széchenyi Híd",
-                "Margit Híd"
+                "Athén",
+                "Róma",
+                "Korinthosz",
+                "Ankara"
             ]
         },
         {
             "id": 4,
-            "question": "Melyik nevezetes épület látható a képen?",
-            "image": "img/debrecen-egyetem.png",
-            "correct": 2,
+            "question": "Melyik városban található a Sagrada Familia templom?", 
+            "image": "img/sagrada_familia.png",
+            "correct": 1,
             "answers":
             [
-                "Eötvös Loránd Tudományegyetem",
-                "Debreceni Egyetem",
-                "Budapest Keleti Pályaudvar",
-                "Népszínház"
+                "Barcelona",
+                "Madrid",
+                "Róma",
+                "Párizs"
             ]
         },
         {
             "id": 5,
-            "question": "Melyik nevezetes épület látható a képen?",
-            "image": "img/eger-bazilika.png",
-            "correct": 3,
+            "question": "Melyik városban található a Louvre múzeum?",
+            "image": "img/louvre.png",
+            "correct": 1,
             "answers":
             [
-                "Szent István Bazilika",
-                "Esztergomi Bazilika",
-                "Egri Bazilika",
-                "Szent Erzsébet Bazilika"
+                "Párizs",
+                "London",
+                "Róma",
+                "Madrid"
             ]
         },
         {
             "id": 6,
-            "question": "Melyik híres magyar tó található a képen?",
-            "image": "img/heviz-to.png",
+            "question": "Melyik városban található a Buckingham-palota?",
+            "image": "img/buckingham_palota.png",
             "correct": 1,
             "answers":
             [
-                "Hévizi-tó",
-                "Mezőkövesdi Kavicsos tó",
-                "Tisza-tó",
-                "Balaton"
+                "London",
+                "Buckingham",
+                "Luton",
+                "Párizs"
             ]
         },
         {
             "id": 7,
-            "question": "Melyik híres magyar település látható a képen?",
-            "image": "img/holloko.png",
-            "correct": 4,
+            "question": "Melyik országban található a Stonehenge?",
+            "image": "img/stonehenge.png",
+            "correct": 1,
             "answers":
             [
-                "Tiszadob",
-                "Mezőkövesd Hadas",
-                "Ófalu",
-                "Hollókő"
+                "Anglia",
+                "Skócia",
+                "Írország",
+                "Wales"
             ]
         },
         {
             "id": 8,
-            "question": "Milyen helyszín látható a képen?",
-            "image": "img/mohacs-emlekhely.png",
-            "correct": 3,
+            "question": "Melyik országban találhatóak a híres fekete homokos tengerpartok?",
+            "image": "img/izland.png",
+            "correct": 1,
             "answers":
             [
-                "Nagy-Magyarország Emlékmű",
-                "Holokauszt Emlékmű",
-                "Mohácsi Emlékhely",
-                "Második világháborús Emlékhely"
+                "Izland",
+                "Dánia",
+                "Svédország",
+                "Norvégia"
             ]
         },
         {
             "id": 9,
-            "question": "Melyik híres magyar település látható a képen?",
-            "image": "img/szentendre.png",
-            "correct": 2,
+            "question": "Melyik városban található a Boldog Vazul-székesegyház",
+            "image": "img/boldog_vazul.png",
+            "correct": 1,
             "answers":
             [
-                "Szentgotthárd",
-                "Szentendre",
-                "Szentlőrinc",
-                "Szentistván"
+                "Moszkva",
+                "Szentpétervár",
+                "Kiev",
+                "Minszk"
             ]
         },
         {
             "id": 10,
-            "question": "Melyik nevezetes épület látható a képen?",
-            "image": "img/tihany-bences_apatsag.png",
+            "question": "Melyik országban található a Geiranger-fjord?",
+            "image": "img/geiranger_fjord.png",
             "correct": 1,
             "answers":
             [
-                "Tihanyi Bencés Apátság",
-                "Zirci Ciszterci Apátság",
-                "Pannonhalmi Főapátság",
-                "Szécsényi Ferences Kolostor"
+                "Norvégia",
+                "Svédország",
+                "Finnország",
+                "Dánia"
             ]
         }
     ]

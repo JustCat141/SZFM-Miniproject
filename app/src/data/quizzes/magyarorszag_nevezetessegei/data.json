@@ -1,15 +1,136 @@
 {
     "id": 1,
-    "quiz_name": "",
+    "quiz_name": "Magyarország Nevezetességei",
     "questions": [
         {
             "id": 1,
-            "question": "",
-            "image": "",
-            "correct": "",
+            "question": "Melyik híres magyarországi hegy látható a képen?",
+            "image": "img/badacsony-hegy.png",
+            "correct": 3,
             "answers":
             [
-                
+                "Szent György-hegy",
+                "Csobánc",
+                "Badacsony",
+                "Gulács"
             ]
-        }   ]
+        },
+        {
+            "id": 2,
+            "question": "Melyik híres vár látható a képen?",
+            "image": "img/boldogko-var.png",
+            "correct": 4,
+            "answers":
+            [
+                "Regéci Vár",
+                "Szigligeti vár",
+                "Egri Vár",
+                "Boldogkői Vár"
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Melyik nevezetes híd látható a képen?",
+            "image": "img/bd-szabadsag_hid.png",
+            "correct": 1,
+            "answers":
+            [
+                "Szabadság Híd",
+                "Erzsébet Híd",
+                "Széchenyi Híd",
+                "Margit Híd"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Melyik nevezetes épület látható a képen?",
+            "image": "img/debrecen-egyetem.png",
+            "correct": 2,
+            "answers":
+            [
+                "Eötvös Loránd Tudományegyetem",
+                "Debreceni Egyetem",
+                "Budapest Keleti Pályaudvar",
+                "Népszínház"
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Melyik nevezetes épület látható a képen?",
+            "image": "img/eger-bazilika.png",
+            "correct": 3,
+            "answers":
+            [
+                "Szent István Bazilika",
+                "Esztergomi Bazilika",
+                "Egri Bazilika",
+                "Szent Erzsébet Bazilika"
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Melyik híres magyar tó található a képen?",
+            "image": "img/heviz-to.png",
+            "correct": 1,
+            "answers":
+            [
+                "Hévizi-tó",
+                "Mezőkövesdi Kavicsos tó",
+                "Tisza-tó",
+                "Balaton"
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Melyik híres magyar település látható a képen?",
+            "image": "img/holloko.png",
+            "correct": 4,
+            "answers":
+            [
+                "Tiszadob",
+                "Mezőkövesd Hadas",
+                "Ófalu",
+                "Hollókő"
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Milyen helyszín látható a képen?",
+            "image": "img/mohacs-emlekhely.png",
+            "correct": 3,
+            "answers":
+            [
+                "Nagy-Magyarország Emlékmű",
+                "Holokauszt Emlékmű",
+                "Mohácsi Emlékhely",
+                "Második világháborús Emlékhely"
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Melyik híres magyar település látható a képen?",
+            "image": "img/szentendre.png",
+            "correct": 2,
+            "answers":
+            [
+                "Szentgotthárd",
+                "Szentendre",
+                "Szentlőrinc",
+                "Szentistván"
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Melyik nevezetes épület látható a képen?",
+            "image": "img/tihany-bences_apatsag.png",
+            "correct": 1,
+            "answers":
+            [
+                "Tihanyi Bencés Apátság",
+                "Zirci Ciszterci Apátság",
+                "Pannonhalmi Főapátság",
+                "Szécsényi Ferences Kolostor"
+            ]
+        }
+    ]
 }
