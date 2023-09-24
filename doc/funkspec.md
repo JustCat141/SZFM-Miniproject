@@ -9,12 +9,16 @@ A "Place Detective" játék a már jól megszokott stratégiát fogja követni.
 Megjelenik egy kép egy nevezetes épületről és négy válaszlehetőség. 
 A felhasználó ki kell válassza azt a várost és országot melyben az adott nevezetesség megtalálható. 
 A válaszok közül egy helyes, többi helytelen. 
-A játék célja a lehető legtöbb pont megszerzése és számunkra fontos a diákok edukálása, ezért minden válaszadás után az adott nevezetességről érdekességeket olvashatnak. 
-Megfelelve a mai kor követelményeinek, az oldal okostelefonon is megfelelően kell működjön.
+A játék fő célja az, hogy a résztvevők a lehető legtöbb pontot szerezzék, miközben közben értékes információkat sajátítanak el. Az oktatási szempontok kiemelten fontosak, így minden játék után a diákok érdekességeket olvashatnak az adott nevezetességekről vagy témáról. Ezzel a játék nemcsak szórakoztató, hanem edukatív is.
+
+A mai kor követelményeihez igazodva az oldalnak okostelefonon is kiválóan kell működnie. Ez azt jelenti, hogy a diákok könnyedén hozzáférhetnek az oldalhoz és játszhatnak a telefonjukon is, ami növeli az elérhetőséget és a játék interaktivitását. Az okostelefonokon való működés biztosítása révén az oldal a diákok mindennapi eszközeire is optimalizált, ami elősegíti a hatékony tanulást és szórakozást egyszerre.
 
 # Jelenlegi helyzet
-A megrendelő célja, hogy bővítse az általa nyújtott oktatási szolgáltatásokat. 
-Egy új rendszer lefejlesztését rendelte meg, amely interneten keresztül modern megoldásokat használva működik, és a XXI. század követelményei szerint elérhető számítógépen és mobilon is. 
+A megrendelő kiemelten fontosnak tartja oktatási szolgáltatásainak bővítését, hogy lépést tarthasson a XXI. század követelményeivel. Ennek érdekében megrendelte egy innovatív rendszer fejlesztését, mely interneten keresztül modern és interaktív megoldásokat kínál, és számítógépen, valamint mobil eszközökön is elérhető.
+
+Ez a fejlesztés az oktatás terén újabb dimenziókat nyit meg, lehetővé téve a diákok számára, hogy a technológia adta lehetőségeket kihasználva tanuljanak. Az új rendszer segítségével a tananyag interaktív és rugalmas módon prezentálható, és lehetővé teszi a diákok számára, hogy saját tempójukban haladjanak. Ezenkívül a rendszer mobilkészülékeken is használható, így a tanulás bárhol és bármikor elvégezhető.
+
+A cél az, hogy a megrendelő oktatási szolgáltatásai modernizálásával versenyképesebbé váljanak és jobban megfeleljenek a mai diákok elvárásainak és igényeinek.
 Az online platform segítséget fog nyújtani földrajz tárgyból, hogy a diákok szélesebb körben megismerkedjenek a világ érdekességeivel játékos módon. 
 Mindeddig csak matematika tárgyból használtak hasonló alkalmazást, de annyira tetszett a diákoknak, hogy a megrendelő felismerte, hogy ezzel a játékos oktatóprogrammal sokkal eredményesebbé teheti az oktatást, szemben a hagyományos táblára írással. 
 Ezért megkért minket, hogy készítsük el számára a kívánt alkalmazást, ami sokkal aktívabbá és szórakoztatóbbá tudják tenni az oktatást.
@@ -28,9 +32,11 @@ Ezért megkért minket, hogy készítsük el számára a kívánt alkalmazást, 
 |Feladattípus|K4|Kvíz|1.0|Több kérdésből áll, 4 válaszlehetőségből pontosan 1 válasz helyes. A kvíz végén megkapja az elért pontszámot a felhasználó.|
 
 # Jelenlegi üzleti folyamatok modellje
-A mai gyorsan változó technológiai világot nem tudta lekövetni még az oktatás. A diákok egyre kevésbé hajlandóak a tradícionális módon tanulni, mindenki a telefonját használja. 
-Jelenleg a diákok tankönyvből tanulnak és papír alapú dolgozatokat írnak, amely nem csak hogy elavultnak számít, de nem is túl környezetbarát és az oktatóknak rengeteg idejük elmegy az egyesével történő javítással. 
-Online platformunk erre fog egy kiváló megoldást biztosítani első körben földrajz tantárgyból.
+Az oktatási rendszernek ma már nehézkesen sikerül lépést tartania a gyorsan változó technológiai világgal. A diákok egyre kevésbé hajlandóak a hagyományos tanulási módszerekhez ragaszkodni, inkább a mobiltelefonjaikat ragadják meg mindennapi információgyűjtésükhöz és tanulmányaikhoz.
+
+Jelenleg a diákok még mindig tankönyvekből tanulnak és papíralapú dolgozatokat írnak, pedig ez a módszer nem csak elavultnak tekinthető, hanem környezetbarát szempontból sem optimális, ráadásul az oktatóknak is rengeteg időt és energiát emészt fel az egyes diákfeladatok manuális értékelése.
+
+Azonban egy új online platform bevezetése most megoldást kínálhat erre a problémára, kezdetben konkrétan a földrajz tantárgy területén.
 
 Jelenlegi folyamatok:
 
@@ -60,7 +66,19 @@ Admin: Beléphet minden más szerepkörbe, hogy a hibamentes működést ellenő
 Felhasználó: Csak a saját feladatával tud foglalkozni, kvízeket kitölteni, más játékosok eredményét nem tudja megtekinteni.
 
 # Képernyő tervek
-A projektünkhöz csak számítógépes megjelenítést tervezünk, ebből látható pár terv. A GUI-t letisztult, könnyen kezelhetőre terveztük.
+A projekt tervezése során a számítógépes megjelenítést preferáljuk, és ebben a kontextusban néhány tervezési elvet alkalmaztunk. A grafikus felhasználói felület (GUI) letisztult és könnyen kezelhető lesz, hogy a felhasználók zökkenőmentesen és hatékonyan használhassák az alkalmazást.
+
+A letisztult és könnyen kezelhető GUI több előnnyel jár:
+
+ - Felhasználóbarát: Az egyszerű és intuitív tervezés segíti a felhasználókat a könnyű használatban, minimalizálva az esetleges frusztrációt vagy félreértéseket.
+
+ - Gyors tanulási idő: A letisztult tervezés minimalizálja a tanulási időt, így a diákok gyorsan megtanulhatják az alkalmazás működését.
+
+ - Hatékony információáramlás: Az egyszerűsített felület segíti a hatékony információátadást és tanulást, mivel a felhasználók kevesebb időt töltenek el a navigációval és a feladatok elvégzésével.
+
+ - Professzionális megjelenés: A letisztult design professzionális megjelenést kölcsönöz az alkalmazásnak, ami növeli az elfogadottságot és a használhatóságot.
+
+A számítógépes megjelenítés lehetővé teszi a projektcéljainak hatékony megvalósítását, és a letisztult GUI tervezése a felhasználói élmény javítását célozza meg, miközben megkönnyíti az oktatást és az információ megosztását.
 
 Kép a kvíz megjelenéséről
 
