@@ -38,4 +38,61 @@ function App() {
   );
 }
 
+function TopicMenu({ topics, onSelect }) {
+  return (
+    <div className="menu">
+      <h1>Place Detective</h1>
+      <h2>Choose a Topic:</h2>
+      <div className="topics">
+        {Object.keys(topics).map((topic) => (
+          <div className="topic-choose btn" key={topic} onClick={() => onSelect(topic)}>
+            {topic}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function Quiz({ topic, onBackToMenu, data, imgpath }) {
+  const [questions, setQuestions] = useState([]);
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [selectedAnswer, setSelectedAnswer] = useState(null);
+  const [quizFinished, setQuizFinished] = useState(false);
+  const [score, setScore] = useState(0);
+
+
+  return (
+    <div className="play">
+        <div>
+          <div className="header">
+            <h1>{topic} quiz</h1>
+            <p className="question-number">Question {currentQuestion + 1}/{questions.length}</p>
+          </div>
+          {currentQuestionData && (
+            <div>
+             {console.log(`./data/quizzes/${imgpath}/img/${currentQuestionData.image}`)}
+              <img className="pic" src={`./data/quizzes/${imgpath}/${currentQuestionData.image}`} alt={`Question ${currentQuestion + 1}`} />
+            
+            
+              <div className="options">
+                {currentQuestionData.answers.map((answer, ansIndex) => (
+                  <button
+                    className={`btn ${selectedAnswer === ansIndex ? 'selected' : ''}`}
+                    key={ansIndex}
+                    disabled={selectedAnswer !== null}
+                    onClick={() => handleAnswerClick(ansIndex)}
+                  >
+                    {answer}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      
+    </div>
+  );
+}
+
 export default App;
