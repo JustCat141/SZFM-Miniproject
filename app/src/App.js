@@ -61,6 +61,16 @@ function Quiz({ topic, onBackToMenu, data, imgpath }) {
   const [quizFinished, setQuizFinished] = useState(false);
   const [score, setScore] = useState(0);
 
+  useEffect(() => {
+    // Load questions from the data variable
+    const loadedQuestions = data.questions.map((question) => ({
+      ...question,
+      answers: shuffleArray(question.answers),
+    }));
+
+    setQuestions(shuffleArray(loadedQuestions));
+  }, [data]);
+
   return (
     <div className="play">
  
@@ -71,14 +81,14 @@ function Quiz({ topic, onBackToMenu, data, imgpath }) {
           </div>
           {currentQuestionData && (
             <div>
-             {console.log(`./data/quizzes/${imgpath}/img/${currentQuestionData.image}`)}
-              <img className="pic" src={`./data/quizzes/${imgpath}/${currentQuestionData.image}`} alt={`Question ${currentQuestion + 1}`} />
-            
-            
+             {console.log(./data/quizzes/${imgpath}/img/${currentQuestionData.image})}
+              <img className="pic" src={./data/quizzes/${imgpath}/${currentQuestionData.image}} alt={Question ${currentQuestion + 1}} />
+
+
               <div className="options">
                 {currentQuestionData.answers.map((answer, ansIndex) => (
                   <button
-                    className={`btn ${selectedAnswer === ansIndex ? 'selected' : ''}`}
+                    className={btn ${selectedAnswer === ansIndex ? 'selected' : ''}}
                     key={ansIndex}
                     disabled={selectedAnswer !== null}
                     onClick={() => handleAnswerClick(ansIndex)}
