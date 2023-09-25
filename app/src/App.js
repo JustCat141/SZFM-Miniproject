@@ -86,13 +86,10 @@ function Quiz({ topic, onBackToMenu, data, imgpath }) {
       answers: question.answers,
     }));
 
-    console.log(loadedQuestions);
     loadedQuestions = shuffleArray(loadedQuestions);
     const correct = loadedQuestions.map((question) => 
       question.answers[question.correct - 1]);
-      console.log(correct);
     setCorrectAnswers(correct);
-    console.log(loadedQuestions);
     
     loadedQuestions = loadedQuestions.map((question) => ({...question, answes: shuffleArray(question.answers)}));
     
@@ -102,8 +99,6 @@ function Quiz({ topic, onBackToMenu, data, imgpath }) {
 
   //handle of the answer selection and after that check if the answer is correct
   const handleAnswerClick = (selectedAnswer) => {
-    console.log(selectedAnswer);
-    console.log(correctanswers[currentQuestion]);
     if (selectedAnswer === correctanswers[currentQuestion]) {
       setScore(score + 1);
     }
@@ -139,7 +134,6 @@ function Quiz({ topic, onBackToMenu, data, imgpath }) {
     }));
     
     
-    console.log(loadedQuestions);
     
     loadedQuestions = shuffleArray(loadedQuestions);
     const correct = loadedQuestions.map((question) => 
@@ -159,12 +153,9 @@ function Quiz({ topic, onBackToMenu, data, imgpath }) {
       answers: question.answers,
     }));
 
-    console.log(loadedQuestions);
 const correct = loadedQuestions.map((question) => 
       question.answers[question.correct - 1]);
-      console.log(correct);
     setCorrectAnswers(correct);
-    console.log(loadedQuestions);
   
     setQuestions(loadedQuestions);
   }, [data]);
@@ -198,9 +189,8 @@ const correct = loadedQuestions.map((question) =>
         <div>
           <div className="header">
             <h1>{topic} quiz</h1>     
-
-              {/* <h1 >  {questions[currentQuestion+1].question}</h1> */}
-            <p className="question-number">Question {currentQuestion + 1}/{questions.length}</p>
+          <h2 style={{ paddingTop: '1rem', margin: '0' }}>{currentQuestionData.question}</h2> 
+          <p className="question-number">Question {currentQuestion + 1}/{questions.length}</p>
           </div>
           {currentQuestionData && (
             <div>
