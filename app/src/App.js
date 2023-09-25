@@ -168,6 +168,7 @@ const correct = loadedQuestions.map((question) =>
 
 
 
+  console.log(currentQuestionData);
   //here is the structure of the quiz
   return (
     <div className="play">
@@ -187,13 +188,14 @@ const correct = loadedQuestions.map((question) =>
         </div>
       ) : (
         <div>
-          <div className="header">
-            <h1>{topic} quiz</h1>     
-          <h2 style={{ paddingTop: '1rem', margin: '0' }}>{currentQuestionData.question}</h2> 
-          <p className="question-number">Question {currentQuestion + 1}/{questions.length}</p>
-          </div>
           {currentQuestionData && (
             <div>
+              
+          <div className="header">
+            <h1>{topic} quiz</h1>     
+              <h2 style={{ paddingTop: '1rem', margin: '0' }}>{currentQuestionData.question}</h2>
+          <p className="question-number">Question {currentQuestion + 1}/{questions.length}</p>
+          </div>
               {/*We have to load for each question a different picture */}
               <img className="pic" 
                 src={`./data/quizzes/${imgpath}/${currentQuestionData.image}`} 
