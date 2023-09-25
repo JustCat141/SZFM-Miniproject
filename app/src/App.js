@@ -80,25 +80,31 @@ function Quiz({ topic, onBackToMenu, data, imgpath }) {
   //this resolves the loading of the quiz data
   useEffect(() => {
     // Load questions from the data variable
-    const loadedQuestions = data.questions.
+    let loadedQuestions = data.questions.
     map((question) => ({
       ...question,
-      answers: shuffleArray(question.answers),
+      answers: question.answers,
     }));
 
-    setQuestions(shuffleArray(loadedQuestions));
-
-    // Set the correct answers for all questions
+    console.log(loadedQuestions);
+    loadedQuestions = shuffleArray(loadedQuestions);
     const correct = loadedQuestions.map((question) => 
-      question.answers[question.correct]);
+      question.answers[question.correct - 1]);
+      console.log(correct);
     setCorrectAnswers(correct);
+    console.log(loadedQuestions);
+    
+    loadedQuestions = loadedQuestions.map((question) => ({...question, answes: shuffleArray(question.answers)}));
+    
+    setQuestions(loadedQuestions);
   }, [data]);
+    
 
   //handle of the answer selection and after that check if the answer is correct
   const handleAnswerClick = (selectedAnswer) => {
     console.log(selectedAnswer);
     console.log(correctanswers[currentQuestion]);
-    if (selectedAnswer === currentQuestionData.answers[currentQuestionData.correct + 1]) {
+    if (selectedAnswer === correctanswers[currentQuestion]) {
       setScore(score + 1);
     }
   
@@ -126,18 +132,50 @@ function Quiz({ topic, onBackToMenu, data, imgpath }) {
     setScore(0);
 
     // Shuffle the questions and answer choices again
-    const loadedQuestions = data.questions.map((question) => ({
+    let loadedQuestions = data.questions.
+    map((question) => ({
       ...question,
-      answers: shuffleArray(question.answers),
+      answers: question.answers,
     }));
     
-    setQuestions(shuffleArray(loadedQuestions));
-
-    // Set the correct answers for all questions
+    
+    console.log(loadedQuestions);
+    
+    loadedQuestions = shuffleArray(loadedQuestions);
     const correct = loadedQuestions.map((question) => 
-      question.answers[question.correct]);
+      question.answers[question.correct - 1]);
     setCorrectAnswers(correct);
+    loadedQuestions = loadedQuestions.map((question) => ({...question, answes: shuffleArray(question.answers)}));
+  
+    setQuestions(loadedQuestions);
   };
+
+
+  useEffect(() => {
+    // Load questions from the data variable
+    let loadedQuestions = data.questions.
+    map((question) => ({
+      ...question,
+      answers: question.answers,
+    }));
+
+    console.log(loadedQuestions);
+const correct = loadedQuestions.map((question) => 
+      question.answers[question.correct - 1]);
+      console.log(correct);
+    setCorrectAnswers(correct);
+    console.log(loadedQuestions);
+  
+    setQuestions(loadedQuestions);
+  }, [data]);
+
+
+
+
+
+
+
+
 
   //here is the structure of the quiz
   return (
